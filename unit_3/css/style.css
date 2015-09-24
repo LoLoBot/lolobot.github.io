@@ -1,0 +1,31 @@
+*{
+	background-color:black;
+	color:#fff;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	letter-spacing: 0.5px
+}
+/*Why can't I put font style or font weight in the asterix area?*/
+h1{
+	font-size: 2em;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+}
+p#subhead{
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #A2DDCE;
+}
+h3{
+	color: #81DDD0;
+	font-size: 1.5em;
+	font-weight: 100;
+	letter-spacing: 3px;
+}
+a{
+	text-decoration: none;
+	font-style: italic;
+}
