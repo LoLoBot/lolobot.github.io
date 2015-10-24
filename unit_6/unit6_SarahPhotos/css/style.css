@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+* { margin:0; padding:0; box-sizing:border-box; }
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 3em;
+	float: left;
+	margin: .8em;
+	display: block;
+	color: #88B6BB;
+}
+nav {
+	float:right;
+	margin: 15px;
+	font-family: 'Lato', sans-serif;
+}
+nav a {
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	margin: 1.8em;
+}
+nav a:hover {
+	color: #88B6BB;
+	font-weight: bold;
+}
+header {
+	width: 1280px;
+}
+footer {
+	text-align: center;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	width: 1280px;
+	padding: 1.8em;
+}
+img {
+	width: 360px;
+}
+#gallery {
+	width: 1280px;
+}
+.pics {
+	display: inline-block;
+	margin: 30px;
+}
+article {
+	display: block;
+}
+#blog1 {
+	display: inline;
+	width: 1280px;
+	float: left;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#blogphotos {
+	width: 360px;
+	float: left;
+}
+#blogtext {
+	width: 600px;
+	float: right;
+}
+
