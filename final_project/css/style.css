@@ -20,6 +20,16 @@ h1{
 	float: left;
 	padding-left:.5em;
 }
+h1 a{
+	text-decoration: none;
+	color: #000;
+}
+h3{
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	color: #f3a184;
+	padding-bottom: .8em;
+}
 #logo{
 	float: left;
 }
@@ -42,6 +52,10 @@ nav a:hover {
 	color: #f3a184;
 	font-weight: bold;
 }
+.selected{
+	color: #f3a184;
+	font-weight: bold;	
+}
 footer{
 	font-size: .75em;
 	display: block;
@@ -60,13 +74,18 @@ figure img{
 	display: block;
 	float: left;
 	width: 50%;
-	padding: .5%;
+	padding: .5% .5% 0;
 }
 .small{
 	display: block;
 	float: left;
 	width: 25%;
 	padding: .5% .5% 0;
+}
+.left{
+	display: block;
+	float: left;
+	width: 50%;
 }
 .small:nth-of-type(4){
 	padding: .75% .5% 0;
@@ -78,8 +97,7 @@ figure img{
 	display: block;
 	float: left;
 	width: 75%;
-	padding: 0 1.8em;
-
+	padding-right: 1.8em;
 }
 .description{
 	display: block;
@@ -101,10 +119,12 @@ figure img{
 #resume{
 	width: 100%;
 	float: none;
+	padding: 1em 1.8em 0 1.8em;
 }
 .description{
 	width: 100%;
 	float: none;
+	padding: 1.8em;
 }
 }
 @media (max-width: 680px) {
